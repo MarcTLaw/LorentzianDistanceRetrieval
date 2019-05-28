@@ -13,7 +13,7 @@ export OMP_NUM_THREADS=1
 python3 lorentzian_embed_with_normalized_rank.py \
        -dim 10 \
        -lr 0.1 \
-       -epochs 2000 \
+       -epochs 3000 \
        -negs 50 \
        -burnin 20 \
        -nproc "${NTHREADS}" \
